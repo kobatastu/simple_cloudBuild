@@ -16,8 +16,9 @@ npm run deploy
 ```
 
 ## 他プロジェクトでCloud Buildを使うときの手順
-今回このサンプルを作ったときの手順と気をつける流れについて書く
-基本的に[GCPドキュメント](https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run?hl=ja)通りにやれば良いが前提としてデプロイコマンドやDockerfileが必要なので手順を書く
+
+今回このサンプルを作ったときの手順と気をつける流れについて書く。
+基本的に[GCPドキュメント](https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run?hl=ja)通りにやれば良いが前提としてデプロイコマンドやDockerfileが必要なので手順を書く。
 
 1. ソースコードを作成する。typescriptの場合、jsにビルドする必要があるのでnpm scriptにビルドコマンドを書いておく。実行コマンドも書いておくと良い（Dockerfile作成時に必要になる）
 2. Dockerfileを作成する
