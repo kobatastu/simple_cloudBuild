@@ -8,9 +8,10 @@
 
 ## 実行方法
 
+cloudbuild.yamlのPROJECT_ID、IMAGE_NAME、SERVICE_NAMEを自分のプロジェクトのGCPプロジェクトID、Container Registry 内のイメージ名、Cloud Runサービス名にそれぞれ書き換えた後、以下を実行。
+
 ```
 npm i
-# cloudbuild.yamlのPROJECT_ID、IMAGE_NAME、SERVICE_NAMEを自分のプロジェクトのGCPプロジェクトID、Container Registry 内のイメージ名、Cloud Runサービス名にそれぞれ書き換える。
 npm run deploy
 ```
 
